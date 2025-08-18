@@ -7,4 +7,4 @@ __all__ = [
     'BaseModel',
     'BaseElement',
     'BaseInterface'
-]
+]#init
