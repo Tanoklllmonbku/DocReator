@@ -14,7 +14,7 @@ class BaseElement(ABC):
         self.id: str = str(uuid.uuid4())
         self.type: str = element_type  # 'box', 'text', 'line' и т.д.
 
-    @property
+    @property##
     @abstractmethod
     def visual_style(self) -> Dict[str, Any]:
         """Возвращает визуальные свойства (цвет, шрифт и т.д.)"""
